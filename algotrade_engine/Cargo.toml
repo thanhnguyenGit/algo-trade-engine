@@ -1,0 +1,12 @@
+[package]
+name = "algotrade_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.9.0-alpha.2"
+serde_json = { version = "1.0.128", features = ["default"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.40.0" , features = ["full"]}
+csv = {version = "1.1"}
+
