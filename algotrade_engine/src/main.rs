@@ -13,12 +13,12 @@ use std::fs::File;
 const CSV_PATH: &str = "./data/GBPUSD_historical_data.csv";
 
 fn main() {
-    let x: Record = Record::default();
-    x.read_csv(CSV_PATH).;
+    let x: PriceRecord = PriceRecord::default();
+    x.read_csv(CSV_PATH).expect("Nice").;
 }
 
 #[derive(Debug, Default, Deserialize)]
-struct Record {
+struct PriceRecord {
     day_of_week: String,
     date: String,
     time: String,
@@ -28,7 +28,7 @@ struct Record {
     close: f32,
 }
 
-impl Record {
+impl PriceRecord {
     pub fn read_csv(&self, path: &str) -> Result<Vec<StringRecord>, Box<dyn Error>> {
         let csv_file = File::open(path)?;
         let mut reader = ReaderBuilder::new()
@@ -60,11 +60,17 @@ impl Record {
         vec![]
     }
 }
+impl From<StringRecord> for PriceRecord {
+    fn from(value: StringRecord) -> Self {
+        let x = StringRecord {
 
+        }
+    }
+}
 struct PriceSegment<Timeframe> {
     begin: String,
     end: String,
-    record_list: Vec<Record>,
+    record_list: Vec<PriceRecord>,
     time_frame: Timeframe,
 }
 
