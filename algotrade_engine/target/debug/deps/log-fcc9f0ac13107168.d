@@ -1,0 +1,10 @@
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/liblog-fcc9f0ac13107168.rmeta: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs
+
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/liblog-fcc9f0ac13107168.rlib: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs
+
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/log-fcc9f0ac13107168.d: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs
+
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs:

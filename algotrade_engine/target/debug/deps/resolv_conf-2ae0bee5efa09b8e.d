@@ -1,0 +1,10 @@
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/libresolv_conf-2ae0bee5efa09b8e.rmeta: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/grammar.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/ip.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/config.rs
+
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/libresolv_conf-2ae0bee5efa09b8e.rlib: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/grammar.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/ip.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/config.rs
+
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/resolv_conf-2ae0bee5efa09b8e.d: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/grammar.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/ip.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/config.rs
+
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/lib.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/grammar.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/ip.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/resolv-conf-0.7.0/src/config.rs:

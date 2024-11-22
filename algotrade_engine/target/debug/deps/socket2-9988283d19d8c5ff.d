@@ -1,0 +1,9 @@
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/libsocket2-9988283d19d8c5ff.rmeta: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sockaddr.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/socket.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sockref.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sys/unix.rs
+
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/socket2-9988283d19d8c5ff.d: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sockaddr.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/socket.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sockref.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sys/unix.rs
+
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/lib.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sockaddr.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/socket.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sockref.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.4.10/src/sys/unix.rs:

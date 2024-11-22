@@ -1,7 +1,7 @@
 mod mongo_connection;
 
 use chrono::{NaiveDate, NaiveDateTime, NaiveWeek};
-use mongo_connection::{mongo_connectivity, test};
+use mongo_connection::{conver_from_raw, mongo_connectivity};
 use serde::{Deserialize, Serialize};
 use std::{
     collections::HashMap,

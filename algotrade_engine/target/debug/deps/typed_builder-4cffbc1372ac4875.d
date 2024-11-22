@@ -1,0 +1,8 @@
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/libtyped_builder-4cffbc1372ac4875.so: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/field_info.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/struct_info.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/util.rs
+
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/deps/typed_builder-4cffbc1372ac4875.d: /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/lib.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/field_info.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/struct_info.rs /home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/util.rs
+
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/lib.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/field_info.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/struct_info.rs:
+/home/nguyen-viet-thanh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typed-builder-0.10.0/src/util.rs:

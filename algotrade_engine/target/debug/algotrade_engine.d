@@ -1,1 +1,1 @@
-/home/sacateve/RustProjects/playground/algotrade_engine/target/debug/algotrade_engine: /home/sacateve/RustProjects/playground/algotrade_engine/src/main.rs /home/sacateve/RustProjects/playground/algotrade_engine/src/mongo_connection.rs
+/home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/target/debug/algotrade_engine: /home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/src/main.rs /home/nguyen-viet-thanh/RustProjects/algo-trade-engine/algotrade_engine/src/mongo_connection.rs

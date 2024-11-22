@@ -8,7 +8,7 @@ use chrono_tz::America::New_York;
 use serde::{Deserialize, Serialize};
 
 const MONGO_CONNECTION_URI: &str = "mongodb://localhost:27017/";
-const MONGO_DATABASE_NAME: &str = "GBP_price_history";
+const MONGO_DATABASE_NAME: &str = "admin";
 const MONGO_COLLECTION_NAME: &str = "1h";
 
 pub async fn mongo_connectivity() -> mongodb::error::Result<()> {
@@ -23,28 +23,28 @@ pub async fn mongo_connectivity() -> mongodb::error::Result<()> {
         .find_one(doc! {"Date" : "10/30/2024 00:00"}, None)
         .await?;
     println!("Found the doc with date:\n{:#?}", get_document);
-    test(&get_document.unwrap()).await;
+    conver_from_raw(&get_document.unwrap()).await;
     Ok(())
 }
 
 #[derive(Debug, Default, Deserialize)]
-struct PriceRecord {
-    day_of_week: String,
-    date: String,
-    time: String,
-    open: f32,
-    high: f32,
-    low: f32,
-    close: f32,
+pub struct MongoRecord {
+    pub day_of_week: String,
+    pub date: String,
+    pub time: String,
+    pub open: f32,
+    pub high: f32,
+    pub low: f32,
+    pub close: f32,
 }
-struct PriceSegment<Timeframe> {
-    begin: String,
-    end: String,
-    record_list: Vec<PriceRecord>,
-    time_frame: Timeframe,
+pub struct PriceSegment {
+    pub begin: String,
+    pub end: String,
+    pub record_list: Vec<MongoRecord>,
+    pub time_frame: Timeframe,
 }
-
-enum Timeframe {
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub enum Timeframe {
     OneMin,
     FiveMin,
     FifteenMin,
@@ -54,8 +54,15 @@ enum Timeframe {
     Weekly,
     Monthly,
 }
-
-pub async fn test(input_document: &Document) {
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub enum SegIndex {
+    First,
+    Second,
+    Third,
+    Fourth,
+    Fifth,
+}
+pub async fn conver_from_raw(input_document: &Document) {
     let date_str = "10/29/2024";
     let date_format = "%m/%d/%Y";
     let date = NaiveDate::parse_from_str(date_str, date_format)
@@ -67,11 +74,42 @@ pub async fn test(input_document: &Document) {
     );
     input_document
         .iter()
-        .map(|(_, val)| {
-            //place(element);
-            println!("{key:#?}")
+        .map(|(_, bson)| {
+            println!("BSON-DATE {:#?}", bson.as_str());
+            println!("BSON-DOUBLE {:#?}", bson.as_f64());
         })
         .collect()
 }
 
-fn place(i: u32) {}
+impl From<Document> for MongoRecord {
+    fn from(value: Document) -> Self {
+        let mut day_of_week
+        value.iter().map(|(_, bson)| date = bson.as_str().take())
+    }
+}
+
+trait SegmentBuilder {
+    type OutputType;
+    fn set_begin(&mut self, begin: String);
+    fn set_timeframe(&mut self, timeframe: Timeframe);
+    fn set_seg_index(&mut self, index: SegIndex);
+    fn set_price_records(&mut self, record: &[MongoRecord]);
+    fn set_end(&mut self, end: String);
+    fn build(self) -> Self::OutputType;
+}
+impl SegmentBuilder for PriceSegment {
+    type OutputType = PriceSegment;
+    fn set_begin(&mut self, begin: String) {}
+    fn set_timeframe(&mut self, timeframe: Timeframe) {}
+    fn set_seg_index(&mut self, index: SegIndex) {}
+    fn set_price_records(&mut self, record: &[MongoRecord]) {}
+    fn set_end(&mut self, end: String) {}
+    fn build(self) -> Self::OutputType {
+        PriceSegment {
+            end: Default::default(),
+            begin: Default::default(),
+            time_frame: Timeframe::Onehour,
+            record_list: Default::default(),
+        }
+    }
+}
